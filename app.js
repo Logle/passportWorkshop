@@ -13,7 +13,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 
-var routes = require('./routes/index').router;
+var routes = require('./routes/index');
 var home = require('./routes/home')
 var users = require('./routes/users');
 var add_routes = require('./routes/add');
@@ -29,7 +29,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
 
 //standard Express middlewares
-app.use(favicon());
+app.use(favicon()); //logs requests to the console
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());

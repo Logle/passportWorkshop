@@ -26,7 +26,4 @@ router.get('/auth/facebook/callback',
   }));
 
 //what's with this 
-module.exports = {'router': router, 'passport': passport}
-
-//is this how you export the modules? 
-// module.exports = {'router': router, 'passport': passport} wait why do you need to export the passport object? 
+module.exports = router;
