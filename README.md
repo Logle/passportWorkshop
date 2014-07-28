@@ -1,5 +1,5 @@
 ##AUTHENTICATED WIKISTACK
-###a workshop written for the students of Fullstack Academy
+#####a workshop written for the students of Fullstack Academy
 In this workshop, we’ll build a layer of authentication on our old friend, Wikistack. Along the way, we’ll learn more about local and provider authentication, middleware, session cookies, and security. 
 
 ###What is authentication? 
